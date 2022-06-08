@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bed with lamp
+* source:	https://sketchfab.com/3d-models/bed-with-lamp-b9b6f7dce9df4d719acc37b5e05a3ea3
+* author:	GreenG (https://sketchfab.com/AngelNebesniy)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bed with lamp" (https://sketchfab.com/3d-models/bed-with-lamp-b9b6f7dce9df4d719acc37b5e05a3ea3) by GreenG (https://sketchfab.com/AngelNebesniy) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
