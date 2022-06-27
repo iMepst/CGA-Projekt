@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CGA SS2022</title>
+    <link rel="shortcut icon" href="#"/>
+</head>
+<body style="margin:0; overflow:hidden">
+<div id="3d_content"></div> <!--"Division" element with ID for inserting the 3D content-->
+<script type="importmap">
+    {
+        "imports": {
+        "three": "../../lib/three.js-r139/build/three.module.js",
+        "datgui": "../../lib/dat.gui-0.7.9/build/dat.gui.module.js",
+        "controls": "../../lib/three.js-r139/examples/jsm/controls/OrbitControls.js",
+        "gltfloader": "../../lib/three.js-r139/examples/jsm/loaders/GLTFLoader.js",
+        "csg": "../../lib/three-CSGMesh/three-csg.js",
+        "tween": "../../lib/tween.js-18.6.4/dist/tween.esm.js",
+        "stats": "../../lib/three.js-r139/examples/jsm/libs/stats.module.js"
+    }
+}
+
+
+
+
+
+</script> <!--"Script" element for specifying an import map for accessing libraries-->
+<script type="module" src="src/main.js"></script>
+<style>
+    .button {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .button1 {
+        background-color: #008CBA;
+    }
+</style>
+
+<!-- Overlay for initial interaction (audio context creation precondition) -->
+<div style="font-family: Montserrat; text-align: center; margin-top: 10%">
+    <h1>THREE.JS DEMONSTRATOR</h1>
+    <p>Erstellt von Markus Epstein, 2574996</p>
+    <h2>B.S. Media Systems. CGA</h2>
+</div>
+
+<div id="overlay" style="text-align: center; margin-top: 8%; font-family: Montserrat">
+    <button class="button button1" id="startButton" style>CLICK TO START</button>
+    <p>Für Nutzungshinweise siehe README.md </p>
+</div>
+
+
+</body>
+</html>
